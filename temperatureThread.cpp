@@ -43,7 +43,7 @@ void tempSendDeltaSetpointF(float delta)
     }
 }
 
-void tempSendUpdateCurrentSetPointF(float setPoint)
+void tempSendUpdateSetpointF(float setPoint)
 {
     msg_t *message = mpool.alloc();
     if(message)
